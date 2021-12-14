@@ -1,0 +1,99 @@
+/* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap'); */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+body {
+  /* background-color: rgb(54, 54, 250); */
+  /* background-color:rgb(135, 236, 135); */
+  background-color:rgb(122, 240, 220);
+  font-family: 'Press Start 2P', cursive;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+header .btw {
+  /* border: 2px solid red;
+  font-size: 30px;
+  display: block;
+  text-align: right;
+  margin: 24px 10px 30px 50%;
+  width: 40%; */
+  font-size: 1.4rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+header .btn-again {
+  /* font-size: 50px;
+  vertical-align: middle;
+  margin-left: auto;
+margin-right: auto; */
+  background-color: rgb(109, 109, 109);
+  width: 100px;
+  height: 50px;
+  top: 95%;
+  left: 61%;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -250px;
+  color: white;
+  font-size: 20px;
+}
+header .number {
+  border: 2px solid rgb(71, 43, 43);
+  font-size: 30px;
+  /* padding: 30px 30px ; */
+  display: flex;
+  justify-content: center;
+  width: 10rem;
+  margin: 70px 0 0 0;
+  margin-left: 42%;
+  background-color: #fff;
+}
+section {
+  display: inline-block;
+  width: 40%;
+
+  /* border: 1px solid red; */
+  margin: 111px 3px 111px 15px;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+  background-color: rgb(50 39 39);
+}
+input {
+  padding: 20px;
+  background-color: rgb(209, 162, 32);
+}
+.check {
+  margin: 40px ;
+  /* padding: 10px; */
+  font-size: 20px;
+  color: rgb(22, 21, 21);
+  background-color: #fff;
+}
+.message {
+  margin: 30px;
+  font-size: 30px;
+}
+.label-score {
+  margin: 20px;
+  font-size: 20px;
+}
+.label-highscore {
+  margin: 20px;
+  font-size: 20px;
+}
+.h4{
+  margin: 10px;
+  font-size: 20px;
+  color: #fff;
+}
